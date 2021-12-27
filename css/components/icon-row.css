@@ -1,0 +1,31 @@
+.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+.icon-row__icon span {
+  margin-top: 18px;
+}
+.icon-row__icon .fa-hdd {
+  position: relative;
+}
+.icon-row__icon .fa-hdd div {
+  background-color: red;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
